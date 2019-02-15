@@ -6,28 +6,26 @@
 import Foundation
 
 
-class Student {
-    private var sid: Int
-    private var fname: String
-    private var lname: String
+class Student: Person{
+    private var result: String
 
-
-    init() {
-        sid = 0
-        fname = String()
-        lname = String()
+    override init() {
+        self.result = "Fail"
+        super.init()
+        
     }
 
-    init(sid: Int, fname: String, lname: String) {
-        self.sid = sid
-        self.fname = fname
-        self.lname = lname
+    init(result: String) {
+        self.result = result
     }
 
-    func display() {
-        print("Stundent Id \(self.sid)")
+    override func display() {
+        print("Stundent Id \(self.pid)")
         print("name " + self.fname)
-        print("lastname " + self.lname)
+        print("lastname " + self.lname!)
+        print("Result : " + self.result)
     }
-
+    deinit {
+        print("Good byeeeee STUDENT")
+    }
 }

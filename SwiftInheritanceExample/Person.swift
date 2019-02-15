@@ -11,7 +11,7 @@ class Person {
     var fname: String!
     var lname: String?
 
-    func setData() {
+    init() {
         fname = "Pritesh"
         lname = "Patel"
     }
