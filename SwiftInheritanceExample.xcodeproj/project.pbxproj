@@ -11,6 +11,7 @@
 		07318B4F22163C530077F2E9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07318B4D22163C530077F2E9 /* Person.swift */; };
 		07318B5022163C530077F2E9 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07318B4E22163C530077F2E9 /* Student.swift */; };
 		07318B5222163C5B0077F2E9 /* Faculty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07318B5122163C5B0077F2E9 /* Faculty.swift */; };
+		07318B542216513A0077F2E9 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07318B532216513A0077F2E9 /* IDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		07318B4D22163C530077F2E9 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		07318B4E22163C530077F2E9 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		07318B5122163C5B0077F2E9 /* Faculty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faculty.swift; sourceTree = "<group>"; };
+		07318B532216513A0077F2E9 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				07318B4D22163C530077F2E9 /* Person.swift */,
 				07318B5122163C5B0077F2E9 /* Faculty.swift */,
 				07318B4E22163C530077F2E9 /* Student.swift */,
+				07318B532216513A0077F2E9 /* IDisplay.swift */,
 			);
 			path = SwiftInheritanceExample;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 				07318B5222163C5B0077F2E9 /* Faculty.swift in Sources */,
 				07318B4F22163C530077F2E9 /* Person.swift in Sources */,
 				07318B5022163C530077F2E9 /* Student.swift in Sources */,
+				07318B542216513A0077F2E9 /* IDisplay.swift in Sources */,
 				07318B452216308D0077F2E9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

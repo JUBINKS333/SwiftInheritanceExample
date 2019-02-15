@@ -6,7 +6,9 @@
 import Foundation
 
 
-class Person {
+class Person: IDisplay {
+   
+    
     var pid: Int = 0
     var fname: String!
     var lname: String?
@@ -28,4 +30,10 @@ class Person {
         }
 
     }
+    
+    func printData() {
+        print("Protocol method in Person class")
+    }
 }
+
+
